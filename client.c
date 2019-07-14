@@ -63,7 +63,8 @@ int main(int argc, char const *argv[]) {
     case 1:
       /**
        * Genero stringhe con contenuto crescente da 100 a 100000 byte con 
-       * nome del file uguale al numero dei byte mandati
+       * nome del file uguale al numero dei byte mandati.
+       * You can modify this part to create your personal data and send it
        */
       for (int i=0; i<=19; i++) {
         char *s=Malloc(sizeof(char)*(MINLEN+(i*SUM)+1));
